@@ -17,11 +17,10 @@ const Main = () => {
     return (
         <div>
             <div className="row">
-
                 {/* All Prime Ministers */}
                 <div className="col-md-8">
                     {/* Single Prime Minister */}
-                    <div className="row p-4">
+                    <div className="row pt-0">
                         {
                             primeMinisters.map( primeMinister =><PrimeMinister               
                                 key={primeMinister.id} 
