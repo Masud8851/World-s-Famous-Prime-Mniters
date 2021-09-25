@@ -1,6 +1,6 @@
 # the-superhero-direction-Masud8851
 
-In the project directory, I designed a site for Famous Prime Ministers in the world. From you will the -
+In the project directory, I designed a site for Famous Prime Ministers in the world. By this site you will know -
 
 - About those Prime Ministers
 - Their salary
