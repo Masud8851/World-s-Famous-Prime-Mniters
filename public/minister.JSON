@@ -1,0 +1,11 @@
+[
+    {
+        "id":1,
+        "nation":"Bangledesh",
+        "Head_of_Government":"Prime Minister",
+        "name":"Sheikh Hasina",
+        "gender":"Female",
+        "age":75,
+        "Salary":520000
+    }
+]
