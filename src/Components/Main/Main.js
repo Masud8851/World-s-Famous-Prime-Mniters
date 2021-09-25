@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
+
 import PrimeMinister from '../PrimeMinister/PrimeMinister';
 
 const Main = () => {
@@ -22,10 +24,15 @@ const Main = () => {
                             primeMinisters.map( primeMinister =><PrimeMinister               
                                 key={primeMinister.id} 
                                 primeMinister={primeMinister}
-                            ></PrimeMinister>)
+                            ></PrimeMinister>
+                            )
                         }
                     </div>
-                </div>               
+                </div> 
+                <div className="col-md-3">
+                    {/* Invitation Cart  */}
+                    <Cart></Cart>   
+                </div>              
             </div>
         </div>
     );
