@@ -7,3 +7,17 @@ p {
     margin-top: 0;
     margin-bottom: 0!important;
 }
+
+button{
+    background-color: #7fffd4;
+    padding: .6rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.row {
+    --bs-gutter-x: 0!important;
+}
+

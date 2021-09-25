@@ -6,10 +6,10 @@ const PrimeMinister = (props) => {
     const {image,name,age,gender,headOfGovt,country,Salary} =props.primeMinister
     return (
         <div className="col-md-4 p-2 text-center">
-                <div className="card h-100 ms-auto">
-                    <div className="text-center">
-                        <img src={image} height="200" className="rounded p-2" />
-                    </div>
+            <div className="card h-100 ms-auto card-border">
+                <div className="text-center">
+                    <img src={image} height="200" className="rounded p-2" />
+                </div>
                 <div className="card-body">
                     <h6>Name : {name}</h6>
                     <p>Age : {age}</p>
@@ -18,10 +18,10 @@ const PrimeMinister = (props) => {
                     <h6>Country : {country}</h6>
                     <h6>Salary : <small>{Salary}</small></h6>
                 </div>
-                <div className="card-footer border-0 mb-2">
-                    <button className="btn btn-info fs-6"><i class="fas fa-paper-plane"></i> Send invitation</button>
-                </div>
-            </div>
+                <div className=" border-0 mb-2">
+                    <button><i class="fas fa-paper-plane"></i> Send invitation</button>
+                </div>    
+            </div>        
         </div>
     );
 };
