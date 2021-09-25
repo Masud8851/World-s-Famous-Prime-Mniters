@@ -11,9 +11,6 @@ const Main = () => {
     },[])
 
 
-
-
-
     return (
         <div>
             <div className="row">
