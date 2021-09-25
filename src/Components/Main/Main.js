@@ -12,6 +12,13 @@ const Main = () => {
             .then(data=>setPrimeMinister(data))
     },[])
 
+    // Handle invitation
+    const [invitation, setInvitation] = useState([]);
+    const handleInvitation = (primeMinister) =>{
+        const newInvitation = [...invitation, primeMinister];
+        setInvitation(newInvitation);
+    }
+
 
     return (
         <div>
@@ -24,6 +31,7 @@ const Main = () => {
                             primeMinisters.map( primeMinister =><PrimeMinister               
                                 key={primeMinister.id} 
                                 primeMinister={primeMinister}
+                                handleInvitation = {handleInvitation}
                             ></PrimeMinister>
                             )
                         }
@@ -31,7 +39,7 @@ const Main = () => {
                 </div> 
                 <div className="col-md-3">
                     {/* Invitation Cart  */}
-                    <Cart></Cart>   
+                    <Cart invitation={invitation}></Cart>   
                 </div>              
             </div>
         </div>

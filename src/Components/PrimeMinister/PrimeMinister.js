@@ -19,7 +19,7 @@ const PrimeMinister = (props) => {
                     <h6>Salary : <small>{Salary}</small></h6>
                 </div>
                 <div className=" border-0 mb-2">
-                    <button><i class="fas fa-paper-plane"></i> Send invitation</button>
+                    <button onClick={()=>props.handleInvitation(props.primeMinister)}><i class="fas fa-paper-plane"></i> Send invitation</button>
                 </div>    
             </div>        
         </div>
