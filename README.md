@@ -2,7 +2,11 @@
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, I designed a site for Famous Prime Ministers in the world. From you will the -
+
+- About those Prime Ministers
+- Their salary
+- Even you know also about how many leader are Female.
 
 ### `npm start`
 
