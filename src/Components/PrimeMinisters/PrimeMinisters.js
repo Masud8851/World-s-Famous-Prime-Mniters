@@ -6,7 +6,7 @@ const PrimeMinisters = () => {
     useEffect(()=>{
         fetch('./minister.JSON')
             .then(res=>res.json())
-            .then(data=>console.log(data))
+            .then(data=>setPrimeMinisters(data))
     },[])
 
 
