@@ -1,11 +1,14 @@
 [
     {
-        "id":1,
-        "nation":"Bangledesh",
-        "Head_of_Government":"Prime Minister",
-        "name":"Sheikh Hasina",
+        "keys":880,
+        "id": 1,
+        "image": "./images/Hasina.png",
+        "name": "Sheikh Hasina",
         "gender":"Female",
         "age":75,
+        "country":"Bangladesh",
+        "headOfGovt":"Prime Minister",
         "Salary":520000
     }
+
 ]
