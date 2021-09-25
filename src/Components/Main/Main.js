@@ -25,8 +25,7 @@ const Main = () => {
                             ></PrimeMinister>)
                         }
                     </div>
-                </div>
-                
+                </div>               
             </div>
         </div>
     );
