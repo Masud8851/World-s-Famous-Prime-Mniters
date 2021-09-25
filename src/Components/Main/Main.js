@@ -15,7 +15,7 @@ const Main = () => {
         <div>
             <div className="row mt-0">
                 {/* All Prime Ministers */}
-                <div className="col-md-8">
+                <div className="col-md-9">
                     {/* Single Prime Minister */}
                     <div className="row pt-0 ps-2">
                         {
@@ -26,6 +26,7 @@ const Main = () => {
                         }
                     </div>
                 </div>
+                
             </div>
         </div>
     );

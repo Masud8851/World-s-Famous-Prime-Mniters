@@ -5,14 +5,23 @@ const PrimeMinister = (props) => {
     // console.log(props.primeMinister)
     const {image,name,age,gender,headOfGovt,country,Salary} =props.primeMinister
     return (
-        <div className="col-md-3 mt-3 mb-3 ms-3 border border-1 border-success g-3">           
-            <img src={image} width="100px" height="100px" className="p-1"/>
-            <h4>Name : {name}</h4>
-            <p>Age : {age}</p>
-            <p>Gender : {gender}</p>
-            <p>Head of the Govt. :{headOfGovt}</p>
-            <h4>Country : {country}</h4>
-            <h6>Salary : {Salary}</h6>
+        <div className="col-md-4 p-2 text-center">
+                <div className="card h-100 ms-auto">
+                    <div className="text-center">
+                        <img src={image} height="200" className="rounded p-2" />
+                    </div>
+                <div className="card-body">
+                    <h6>Name : {name}</h6>
+                    <p>Age : {age}</p>
+                    <p>Gender : {gender}</p>
+                    <h6>Head of the Govt. : {headOfGovt}</h6>
+                    <h6>Country : {country}</h6>
+                    <h6>Salary : <small>{Salary}</small></h6>
+                </div>
+                <div className="card-footer border-0 mb-2">
+                    <button className="btn btn-info fs-6"><i class="fas fa-paper-plane"></i> Send invitation</button>
+                </div>
+            </div>
         </div>
     );
 };
