@@ -6,6 +6,7 @@ const Cart = (props) => {
     // console.log(props.invitation);
     // console.log(props.invitation.Salary);
 
+    // Grand Salary
     for(const guest of props.invitation){
         total = total + guest.Salary;
     }
@@ -17,11 +18,17 @@ const Cart = (props) => {
                 <h6>Invited Guest : {props.invitation.length} </h6>
                 <h6>Grand Salary : {total}</h6>
             </div>
+            
+            {/* On Click invitation */}
             <div>
                 <ul>
-                    {
-                        props.invitation.map(guest=><li>{guest.name}</li>)
-                    }
+                    <h1>
+                        <i>
+                            {
+                                props.invitation.map(guest=><li>{guest.name}</li>)
+                            }
+                        </i>
+                    </h1>
                 </ul>
             </div>
         </div>
