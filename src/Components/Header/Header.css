@@ -8,6 +8,14 @@
     background-color: aquamarine;
     padding: 2rem;
 }
+h1{
+    color: orangered;
+}
 p{
     padding: .8rem;
+}
+span{
+    font-size: 20px;
+    padding: 5px;
+    color: orangered;
 }
